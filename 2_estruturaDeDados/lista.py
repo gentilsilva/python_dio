@@ -1,4 +1,4 @@
-# Lista é um objeto, então pode receber outros objetos
+# Lista é um objeto, então pode receber outros objetos - Estrutura mutável
 
 frutas = ["laranja", "maçã", "uva", "pera"]
 frutas = []
