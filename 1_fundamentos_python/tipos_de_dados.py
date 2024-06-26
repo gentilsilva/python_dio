@@ -43,14 +43,15 @@ curso = "Python"
 curso.center(10, "#") # -> "##Python##"
 ".".join(curso) # -> "P.y.t.h.o.n"
 
-nome = "Gentil Souza Reis Neto e Silva"
-nome[0] # -> "G"
-nome[:6] # -> "Gentil"
-nome[13:] # "Reis Neto e Silva"
-nome[7:12] # -> "Souza"
-nome[7:12:2] # -> "Suz"
-nome[:] # -> "Gentil Souza Reis Neto e Silva"
-nome[::-1] # -> "avliS e oteN sieR azouS litneG"
+nome = "Aloha autumn summer hi"
+nome_2 = "Gentil Souza Reis Neto e Silva"
+nome[0] # -> "A"
+nome[:6] # -> "Aloha "
+nome[13:] # "summer hi"
+nome[7:12] # -> "utumn"
+nome[7:12:2] # -> "uun"
+nome[:] # -> "Aloha autumn summer hi"
+nome[::-1] # -> "ih remmus nmutua aholA"
 
 month = input()
 A = "A"
@@ -74,4 +75,4 @@ for mes in months_dict:
   if mes == str(month):
     print(months_dict[mes])
 
-A.endswith()
+# A.endswith()
