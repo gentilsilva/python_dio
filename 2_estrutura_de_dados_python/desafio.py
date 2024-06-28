@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def depositar(valor: float, saldo: float, controle_transacao: list[float], tipo_transacao: list[int], /):
     if valor < 0:
         print("Não é depositar valores negativos")
